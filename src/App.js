@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import QRCode  from 'qrcode.react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: "Simple QRCode generator with react."};
+  }
+  changeText=(event)=>{
+    this.setState({
+      value: event.target.value
+    })
+  }
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+        <QRCode value={this.state.value}/>
+          <p>
+            Simple <code>QRCode</code> generator with react.
+          </p>
+         <input className="inputStyle" type="text" value={this.state.value} onChange={this.changeText} ></input>
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
