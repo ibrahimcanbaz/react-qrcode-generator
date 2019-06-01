@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-qrcode-generator/static/css/main.0724011d.chunk.css",
+    "main.js": "/react-qrcode-generator/static/js/main.d85f2639.chunk.js",
+    "main.js.map": "/react-qrcode-generator/static/js/main.d85f2639.chunk.js.map",
+    "runtime~main.js": "/react-qrcode-generator/static/js/runtime~main.9e672d6b.js",
+    "runtime~main.js.map": "/react-qrcode-generator/static/js/runtime~main.9e672d6b.js.map",
+    "static/js/2.7ddfd760.chunk.js": "/react-qrcode-generator/static/js/2.7ddfd760.chunk.js",
+    "static/js/2.7ddfd760.chunk.js.map": "/react-qrcode-generator/static/js/2.7ddfd760.chunk.js.map",
+    "index.html": "/react-qrcode-generator/index.html",
+    "precache-manifest.358b9063207e5ccf8c454d030932d96e.js": "/react-qrcode-generator/precache-manifest.358b9063207e5ccf8c454d030932d96e.js",
+    "service-worker.js": "/react-qrcode-generator/service-worker.js",
+    "static/css/main.0724011d.chunk.css.map": "/react-qrcode-generator/static/css/main.0724011d.chunk.css.map"
+  }
+}
