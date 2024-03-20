@@ -18,7 +18,7 @@ class App extends React.Component {
         <header className="App-header">
         <QRCode size="500" value={this.state.value}/>
           <p>
-            Simple <code>QRCode</code> generator with react.
+            Simple <code>QRCode</code> generator with react
           </p>
          <input className="inputStyle" type="text" value={this.state.value} onChange={this.changeText} ></input>
         </header>
