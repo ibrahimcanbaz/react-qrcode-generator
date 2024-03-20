@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-        <QRCode value={this.state.value}/>
+        <QRCode size="500" value={this.state.value}/>
           <p>
             Simple <code>QRCode</code> generator with react.
           </p>
